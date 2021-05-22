@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  api_service:
+    image: task
+    restart: always
+    ports:
+      - "8080:8080"
+    networks:
+      - book-mysql-network
+    depends_on:
+      - book-mysqldb
+
+  book-mysqldb:
+    image: "mysql"
+    restart: always
+    ports:
+      - 3306:3306
+    networks:
+      - book-mysql-network
+    environment:
+      MYSQL_DATABASE: book-store
+      MYSQL_ROOT_PASSWORD: IsJax4blGr
+
+networks:
+  book-mysql-network:

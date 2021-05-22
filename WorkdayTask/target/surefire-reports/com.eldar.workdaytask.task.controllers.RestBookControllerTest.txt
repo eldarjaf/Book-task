@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.eldar.workdaytask.task.controllers.RestBookControllerTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.069 s - in com.eldar.workdaytask.task.controllers.RestBookControllerTest

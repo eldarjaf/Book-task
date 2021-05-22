@@ -1,0 +1,11 @@
+com\eldar\workdaytask\task\entities\Book$BookBuilder.class
+com\eldar\workdaytask\task\controllers\RestBookController.class
+com\eldar\workdaytask\task\repositories\BookRepository.class
+com\eldar\workdaytask\task\config\NoResultFoundResponse.class
+com\eldar\workdaytask\task\config\ExceptionHandlingController.class
+com\eldar\workdaytask\task\TaskApplication.class
+com\eldar\workdaytask\task\config\DuplicateTitleResponse.class
+com\eldar\workdaytask\task\config\WebSecurityConfig.class
+com\eldar\workdaytask\task\config\DuplicateTitleException.class
+com\eldar\workdaytask\task\config\NoResultFoundException.class
+com\eldar\workdaytask\task\entities\Book.class
